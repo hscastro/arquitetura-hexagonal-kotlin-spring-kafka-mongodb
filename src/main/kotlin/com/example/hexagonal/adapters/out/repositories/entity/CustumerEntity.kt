@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document
 
 @Data
 @Document(collection = "custumers")
-data class CustumerEntity (
+class CustumerEntity (
 
     @Id
     var id: String? = null,

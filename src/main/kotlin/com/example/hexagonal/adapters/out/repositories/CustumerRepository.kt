@@ -1,7 +1,7 @@
 package com.example.hexagonal.adapters.out.repositories
 
-import com.example.hexagonal.application.core.domain.Custumer
+import com.example.hexagonal.adapters.out.repositories.entity.CustumerEntity
 import org.springframework.data.mongodb.repository.MongoRepository
 
-interface CustumerRepository : MongoRepository<Custumer, String> {
+interface CustumerRepository : MongoRepository<CustumerEntity, String> {
 }
