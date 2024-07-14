@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
 @Component
-class InsertCustumeradapter (
+class InsertCustumerAdapter (
 
     @Autowired
     private val custumerRepository: CustumerRepository,
